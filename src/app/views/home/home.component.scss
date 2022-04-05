@@ -1,0 +1,15 @@
+#home {
+  display: grid;
+
+  min-height: 100vh;
+  width: 100%;
+
+  .sidebar {
+    width: 200px;
+  }
+
+  .content,
+  .page-content {
+    padding: 2rem;
+  }
+}

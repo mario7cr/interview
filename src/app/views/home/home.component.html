@@ -1,1 +1,18 @@
-<router-outlet></router-outlet>
+<mat-drawer-container id="home">
+  <mat-drawer class="sidebar" mode="side" opened>
+    <mat-nav-list>
+      <div class="mat-subheader">Exercises</div>
+      <a mat-list-item [routerLink]="['first-exercise']">1. Stopwatch</a>
+      <a mat-list-item [routerLink]="['second-exercise']">2. User list</a>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content class="content">
+    <div id="header">
+      <h2 class="mat-title">Live Coding</h2>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="page-content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>

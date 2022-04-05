@@ -10,8 +10,7 @@ const routes: Routes = [
     component: HomeComponent,
     children: [
       { path: 'first-exercise', component: FirstExerciseComponent },
-      { path: 'second-exercise', component: SecondExerciseComponent },
-      { path: '', redirectTo: 'first-exercise' }
+      { path: 'second-exercise', component: SecondExerciseComponent }
     ],
   },
 ];
