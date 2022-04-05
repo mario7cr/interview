@@ -1,27 +1,14 @@
 # Interview
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+## First Exercise
 
-## Development server
+ - Add the necessary logic to start/ stop the display counter
+ - When the counter reaches the value 60 (seconds), the component stopwatch should emits an event where the componenet
+ First Component will receive it and display a message "1 minute later..."
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Second Exercise
 
-## Code scaffolding
+ - Add the necessary logic to perform a request getting a list of users;
+ - Render on the Users Component the name of the users retrieved from the API;
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ * For this second one, the endpoint is already set on the users.service file;
