@@ -1,14 +1,9 @@
-# Interview
+# Live coding project
 
-## First Exercise
+Exercises to analyze the candidate's knowledge in Angular;
 
- - Add the necessary logic to start/ stop the display counter
- - When the counter reaches the value 60 (seconds), the component stopwatch should emits an event where the componenet
- First Component will receive it and display a message "1 minute later..."
+### First Exercise
+- The candidate should implement the logic for a stopwatch and renders an output log whenever the user clicks to stop;
 
-## Second Exercise
-
- - Add the necessary logic to perform a request getting a list of users;
- - Render on the Users Component the name of the users retrieved from the API;
-
- * For this second one, the endpoint is already set on the users.service file;
+### Second Exercise
+- The candidate should implement the logic to retrieve a list of users from an external API and display the name of the users in a ascending ordered way;
