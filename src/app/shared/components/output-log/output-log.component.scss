@@ -1,0 +1,15 @@
+.output-log {
+  background-color: #0f0f0f;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 250px;
+  height: 210px;
+  overflow: auto;
+
+  padding: .5rem .75rem;
+
+  border-radius: 5px;
+}
