@@ -1,0 +1,23 @@
+table {
+  width: 400px;
+  background: rgba(0, 0, 0, 0.1);
+
+  caption {
+    padding: 1rem;
+    font-weight: 500;
+  }
+
+  th, td {
+    padding: 0.25rem 0.5rem;
+  }
+
+  th {
+    text-align: left;
+    font-weight: 500;
+  }
+
+  td {
+    font-weight: 400;
+    font-size: 90%;
+  }
+}

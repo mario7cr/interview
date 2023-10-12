@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'app-first-exercise',
   templateUrl: './first-exercise.component.html',
-  styleUrls: ['./first-exercise.component.scss']
+  styleUrls: ['./first-exercise.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class FirstExerciseComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class FirstExerciseComponent { }

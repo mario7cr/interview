@@ -1,22 +1,19 @@
 <div id="first-exercise">
   <p>
-    For this first exercise, you will have to add the necessary logic to the components Stopwatch and FirstExercise
-    in order to achieve the following behaviors:
+    For this first exercise, you have to add the necessary logic to the Stopwatch and Output Log
+    components to achieve the following behaviors:
   </p>
-  <ol>
-    <li>When the user clicks the START button, the counter should start to increment second by second;</li>
-    <li>When the user clicks the STOP button, the counter should stop and the Output Log should render a new message
-      following the same example given;</li>
-  </ol>
+  <ul>
+    <li>
+      When clicking the START button, the counter should start increasing second by second;
+    </li>
+    <li>
+      When clicking the STOP button, the counter should stop and the Output Log should render
+      a new message following the example given;
+    </li>
+  </ul>
   <div>
     <app-stopwatch></app-stopwatch>
-    <div>
-      <h4>Output Log</h4>
-      <div class="output-log">
-        <span>stopped after 5 seconds</span>
-        <span>stopped after 7 seconds</span>
-        <span>...</span>
-      </div>
-    </div>
+    <app-output-log></app-output-log>
   </div>
 </div>

@@ -1,14 +1,11 @@
 <mat-drawer-container id="home">
-  <mat-drawer class="sidebar" mode="side" opened>
-    <mat-nav-list>
-      <div class="mat-subheader">Exercises</div>
-      <a mat-list-item [routerLink]="['first-exercise']">1. Stopwatch</a>
-      <a mat-list-item [routerLink]="['second-exercise']">2. User list</a>
-    </mat-nav-list>
-  </mat-drawer>
   <mat-drawer-content class="content">
     <div id="header">
       <h2 class="mat-title">Live Coding</h2>
+      <div id="navbar">
+        <a [routerLink]="['first-exercise']" routerLinkActive="selected">Stopwatch</a>
+        <a [routerLink]="['second-exercise']" routerLinkActive="selected">Users</a>
+      </div>
     </div>
     <mat-divider></mat-divider>
     <div class="page-content">
